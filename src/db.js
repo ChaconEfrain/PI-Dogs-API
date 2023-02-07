@@ -2,7 +2,6 @@ require("dotenv").config();
 const { Sequelize } = require("sequelize");
 const fs = require("fs");
 const path = require("path");
-const { DB_USER, DB_PASSWORD, DB_HOST } = process.env;
 
 const sequelize = new Sequelize(
   `postgresql://postgres:d5ZDox8rMAFP2m0tSHj4@containers-us-west-25.railway.app:6989/railway`,
